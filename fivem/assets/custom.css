@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --dark-color-panel-divider: #404144;
+}
+
+details {
+    cursor: pointer;
+}
+
+p,
+li {
+    line-height: 1.7rem !important;
+}
+
+h1 {
+    color: #febb62;
+}
+
+h2 {
+    color: #c47c54;
+}
