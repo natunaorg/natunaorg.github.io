@@ -2,6 +2,8 @@
 
 * {
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
 }
 
 :root {
@@ -23,4 +25,13 @@ h1 {
 
 h2 {
     color: #c47c54;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover {
+    opacity: 0.8;
+    transition-duration: 200ms;
 }
